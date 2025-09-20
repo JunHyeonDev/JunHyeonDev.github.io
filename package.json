@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "homepage": "https://qownsgus0205-tech.github.io/portfolio/"
+    "homepage": "https://qownsgus0205-tech.github.io/qownsgus0205-tech.github.io/"
   },
   "eslintConfig": {
     "extends": [
