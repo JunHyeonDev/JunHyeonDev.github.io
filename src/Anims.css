@@ -1,0 +1,31 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes scrollAnim {
+  0% {
+    top: 2px;
+    opacity: 0;
+  }
+  10% {
+    top: 2px;
+    opacity: 1;
+  }
+  70% {
+    top: 19px;
+    opacity: 1;
+  }
+  90% {
+    top: 19px;
+    opacity: 0;
+  }
+  100% {
+    top: 19px;
+    opacity: 0;
+  }
+}

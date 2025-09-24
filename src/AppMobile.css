@@ -1,0 +1,125 @@
+@media screen and (max-width: 1140px) {
+  .projectSection .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profileContainer {
+    flex-direction: column;
+  }
+
+  .profileLine::before {
+    content: '';
+    height: 0%;
+    width: 1px !important;
+    transition: height 0s ease-in-out;
+  }
+
+  .profileLine.enable::before {
+    height: 100%;
+    transition: height 1s ease-in-out;
+  }
+
+  .profileLine.disable::before {
+    height: 0%;
+    transition: height 1s ease-in-out;
+  }
+
+  .profileLineBottom {
+    flex: 1;
+    display: block;
+  }
+
+  .profileLineBottom::before {
+    content: '';
+    height: 0%;
+    width: 1px;
+    display: block;
+    background-color: #FFFFFF;
+    transition: height 0s ease-in-out;
+  }
+
+  .profileLineBottom.enable::before {
+    height: 100%;
+    transition: height 1s 2s ease-in-out;
+  }
+
+  .profileLineBottom.disable::before {
+    height: 0%;
+    transition: height 1s 2s ease-in-out;
+  }
+
+  .profileWrapper {
+    text-align: center;
+    flex: unset;
+  }
+
+  .aboutMeSection {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .card {
+    padding: 30px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .aboutMeCard {
+    text-align: center;
+  }
+
+  .careerItem {
+    padding: 170px 20px 20px 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .careerThumb {
+    top: 10px;
+    left: calc(50% - 75px);
+  }
+  
+  .careerItem.enable .careerThumb {
+    left: calc(50% - 75px);
+  }
+
+  .careerContents {
+    opacity: 1;
+    text-align: center;
+  }
+
+  .careerSection {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .projectItem {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .projectThumb {
+    width: 100%;
+  }
+
+  .projectThumb  > img {
+    max-height: 80%;
+  }
+
+  .projectTitle {
+    font-size: 2rem;
+  }
+
+  .projectContents {
+    padding: 0 10px;
+  }
+
+  .projectSection {
+    padding: 40px 20px;
+  }
+}
