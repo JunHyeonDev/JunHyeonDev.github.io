@@ -171,8 +171,8 @@ body {
 .profileName {
   display: inline-block;
   font-weight: 700;
-  /* opacity: 0; */
-  /* transform: rotateX(-90deg); */
+  opacity: 0;
+  transform: rotateX(-90deg);
   color: #618bff;
 }
 
