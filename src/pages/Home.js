@@ -17,7 +17,7 @@ import projectThumb_2 from "../assets/images/project/project_2.png";
 import projectThumb_3 from "../assets/images/project/project_3.png";
 import projectThumb_4 from "../assets/images/project/project_4.png";
 import projectThumb_5 from "../assets/images/project/project_5.png";
-import projectThumb_6 from "../assets/images/project/project_6.png";
+import projectThumb_6 from "../assets/images/project/project_6.svg";
 
 function Home() {
   const [profileLineRef, profileLineInView] = useInView();
@@ -214,16 +214,17 @@ function Home() {
             <div className="projectInfo">대구에서 사용가능한 마일리지 D마일 웹 페이지 프론트엔드 및 앱 유지보수를 담당하였습니다.</div>
             </div>
           </div>
-          <div ref={project6Ref} className={"projectItem " + (project6InView?'enable ':'')} onClick={() => {window.open('http://www.byul-byul.com/')}}>
+          <div ref={project6Ref} className={"projectItem " + (project6InView?'enable ':'')} onClick={() => {window.open('http://chatton.kr/')}}>
             <div className="projectThumb white"><img alt="projectThumb_6" src={projectThumb_6} /></div>
             <div className="projectContents">
-            <div className="projectTitle">별별 인권체험관</div>
+            <div className="projectTitle">Chatton</div>
                 <div className="aboutMeTech">
-                  <TechItem color={'#207196'} name={'Wordpress'} transitionDelay={0} />
-                  <TechItem color={'#3fb27f'} name={'Vue.js'} transitionDelay={.25} />
-                  <TechItem color={'#c921af'} name={'Kotlin'} transitionDelay={.5} />
+                  <TechItem color={'#207196'} name={'MySQL'} transitionDelay={0} />
+                  <TechItem color={'#3fb27f'} name={'React.js'} transitionDelay={.25} />
+                  <TechItem color={'#c921af'} name={'Gcp'} transitionDelay={.5} />
+                  <TechItem color={'#c921af'} name={'Express.js'} transitionDelay={.5} />
                 </div>
-            <div className="projectInfo">교육용 별별인권체험관의 스템프투어 앱과 웹을 제작하였습니다.</div>
+            <div className="projectInfo">치지직 채팅창 오버레이를 자유롭게 변경하기 위한 사이드 프로젝트입니다.</div>
             </div>
           </div>
         </div>
