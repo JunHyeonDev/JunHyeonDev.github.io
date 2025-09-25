@@ -219,10 +219,10 @@ function Home() {
             <div className="projectContents">
             <div className="projectTitle">Chatton</div>
                 <div className="aboutMeTech">
-                  <TechItem color={'#207196'} name={'MySQL'} transitionDelay={0} />
-                  <TechItem color={'#3fb27f'} name={'React.js'} transitionDelay={.25} />
-                  <TechItem color={'#c921af'} name={'Gcp'} transitionDelay={.5} />
-                  <TechItem color={'#c921af'} name={'Express.js'} transitionDelay={.5} />
+                  <TechItem color={'#015b85'} name={'MySQL'} transitionDelay={0} />
+                  <TechItem color={'#212121'} fontColor={'#5ed3f3'} name={'React.js'} transitionDelay={.25} />
+                  <TechItem color={'#4181e4'} name={'GCP'} transitionDelay={.5} />
+                  <TechItem color={'#212121'} name={'Express.js'} transitionDelay={.5} />
                 </div>
             <div className="projectInfo">치지직 채팅창 오버레이를 자유롭게 변경하기 위한 사이드 프로젝트입니다.</div>
             </div>
